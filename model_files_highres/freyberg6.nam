@@ -1,17 +1,18 @@
 BEGIN Options
-  LIST       freyberg6.lst
+  LIST  freyberg6.lst
   NEWTON
 END Options
 
 BEGIN Packages
-  DIS6       freyberg6.dis
-  IC6        freyberg6.ic
-  NPF6       freyberg6.npf
-  STO6       freyberg6.sto
-  OC6        freyberg6.oc
-  RCH6       freyberg6.rch
-  WEL6       freyberg6.wel
-  GHB6       freyberg6.ghb
-  SFR6       freyberg6.sfr  'SFR_1'           
+  dis6  freyberg6.dis
+  ic6  freyberg6.ic
+  npf6  freyberg6.npf
+  sto6  freyberg6.sto
+  oc6  freyberg6.oc
+  rch6  freyberg6.rch
+  wel6  freyberg6.wel
+  ghb6  freyberg6.ghb
+  sfr6  freyberg6.sfr  sfr_1
+  OBS6  freyberg6.obs  head_obs
 END Packages
 

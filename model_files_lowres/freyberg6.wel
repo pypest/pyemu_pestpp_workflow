@@ -1,5 +1,3 @@
-# WEL6 input file, prepared by MF5to6 on 6/30/2020 at 16:37:44.
-
 BEGIN Options
   PRINT_INPUT
   PRINT_FLOWS
@@ -10,227 +8,103 @@ BEGIN Dimensions
   MAXBOUND  6
 END Dimensions
 
-BEGIN PERIOD 1
-  3  10  17   -150.00000
-  3  12  14   -150.00000
-  3  21  15   -150.00000
-  3  27  11   -150.00000
-  3  30  7   -150.00000
-  3  35  13   -150.00000
-END PERIOD
+BEGIN PERIOD  1
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_1.txt'
+END PERIOD  1
 
-BEGIN PERIOD 2
-  3  10  17   -150.08414
-  3  12  14   -150.08414
-  3  21  15   -150.08414
-  3  27  11   -150.08414
-  3  30  7   -150.08414
-  3  35  13   -150.08414
-END PERIOD
+BEGIN PERIOD  2
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_2.txt'
+END PERIOD  2
 
-BEGIN PERIOD 3
-  3  10  17   -150.09933
-  3  12  14   -150.09933
-  3  21  15   -150.09933
-  3  27  11   -150.09933
-  3  30  7   -150.09933
-  3  35  13   -150.09933
-END PERIOD
+BEGIN PERIOD  3
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_3.txt'
+END PERIOD  3
 
-BEGIN PERIOD 4
-  3  10  17   -150.12155
-  3  12  14   -150.12155
-  3  21  15   -150.12155
-  3  27  11   -150.12155
-  3  30  7   -150.12155
-  3  35  13   -150.12155
-END PERIOD
+BEGIN PERIOD  4
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_4.txt'
+END PERIOD  4
 
-BEGIN PERIOD 5
-  3  10  17   -150.04472
-  3  12  14   -150.04472
-  3  21  15   -150.04472
-  3  27  11   -150.04472
-  3  30  7   -150.04472
-  3  35  13   -150.04472
-END PERIOD
+BEGIN PERIOD  5
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_5.txt'
+END PERIOD  5
 
-BEGIN PERIOD 6
-  3  10  17   -150.11174
-  3  12  14   -150.11174
-  3  21  15   -150.11174
-  3  27  11   -150.11174
-  3  30  7   -150.11174
-  3  35  13   -150.11174
-END PERIOD
+BEGIN PERIOD  6
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_6.txt'
+END PERIOD  6
 
-BEGIN PERIOD 7
-  3  10  17   -150.07382
-  3  12  14   -150.07382
-  3  21  15   -150.07382
-  3  27  11   -150.07382
-  3  30  7   -150.07382
-  3  35  13   -150.07382
-END PERIOD
+BEGIN PERIOD  7
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_7.txt'
+END PERIOD  7
 
-BEGIN PERIOD 8
-  3  10  17   -150.13667
-  3  12  14   -150.13667
-  3  21  15   -150.13667
-  3  27  11   -150.13667
-  3  30  7   -150.13667
-  3  35  13   -150.13667
-END PERIOD
+BEGIN PERIOD  8
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_8.txt'
+END PERIOD  8
 
-BEGIN PERIOD 9
-  3  10  17   -150.00919
-  3  12  14   -150.00919
-  3  21  15   -150.00919
-  3  27  11   -150.00919
-  3  30  7   -150.00919
-  3  35  13   -150.00919
-END PERIOD
+BEGIN PERIOD  9
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_9.txt'
+END PERIOD  9
 
-BEGIN PERIOD 10
-  3  10  17   -150.14783
-  3  12  14   -150.14783
-  3  21  15   -150.14783
-  3  27  11   -150.14783
-  3  30  7   -150.14783
-  3  35  13   -150.14783
-END PERIOD
+BEGIN PERIOD  10
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_10.txt'
+END PERIOD  10
 
-BEGIN PERIOD 11
-  3  10  17   -150.10527
-  3  12  14   -150.10527
-  3  21  15   -150.10527
-  3  27  11   -150.10527
-  3  30  7   -150.10527
-  3  35  13   -150.10527
-END PERIOD
+BEGIN PERIOD  11
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_11.txt'
+END PERIOD  11
 
-BEGIN PERIOD 12
-  3  10  17   -150.05610
-  3  12  14   -150.05610
-  3  21  15   -150.05610
-  3  27  11   -150.05610
-  3  30  7   -150.05610
-  3  35  13   -150.05610
-END PERIOD
+BEGIN PERIOD  12
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_12.txt'
+END PERIOD  12
 
-BEGIN PERIOD 13
-  3  10  17   -150.12119
-  3  12  14   -150.12119
-  3  21  15   -150.12119
-  3  27  11   -150.12119
-  3  30  7   -150.12119
-  3  35  13   -150.12119
-END PERIOD
+BEGIN PERIOD  13
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_13.txt'
+END PERIOD  13
 
-BEGIN PERIOD 14
-  3  10  17   -150.14052
-  3  12  14   -150.14052
-  3  21  15   -150.14052
-  3  27  11   -150.14052
-  3  30  7   -150.14052
-  3  35  13   -150.14052
-END PERIOD
+BEGIN PERIOD  14
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_14.txt'
+END PERIOD  14
 
-BEGIN PERIOD 15
-  3  10  17   -150.09279
-  3  12  14   -150.09279
-  3  21  15   -150.09279
-  3  27  11   -150.09279
-  3  30  7   -150.09279
-  3  35  13   -150.09279
-END PERIOD
+BEGIN PERIOD  15
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_15.txt'
+END PERIOD  15
 
-BEGIN PERIOD 16
-  3  10  17   -150.01271
-  3  12  14   -150.01271
-  3  21  15   -150.01271
-  3  27  11   -150.01271
-  3  30  7   -150.01271
-  3  35  13   -150.01271
-END PERIOD
+BEGIN PERIOD  16
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_16.txt'
+END PERIOD  16
 
-BEGIN PERIOD 17
-  3  10  17   -150.05159
-  3  12  14   -150.05159
-  3  21  15   -150.05159
-  3  27  11   -150.05159
-  3  30  7   -150.05159
-  3  35  13   -150.05159
-END PERIOD
+BEGIN PERIOD  17
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_17.txt'
+END PERIOD  17
 
-BEGIN PERIOD 18
-  3  10  17   -150.00685
-  3  12  14   -150.00685
-  3  21  15   -150.00685
-  3  27  11   -150.00685
-  3  30  7   -150.00685
-  3  35  13   -150.00685
-END PERIOD
+BEGIN PERIOD  18
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_18.txt'
+END PERIOD  18
 
-BEGIN PERIOD 19
-  3  10  17   -150.01663
-  3  12  14   -150.01663
-  3  21  15   -150.01663
-  3  27  11   -150.01663
-  3  30  7   -150.01663
-  3  35  13   -150.01663
-END PERIOD
+BEGIN PERIOD  19
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_19.txt'
+END PERIOD  19
 
-BEGIN PERIOD 20
-  3  10  17   -150.03056
-  3  12  14   -150.03056
-  3  21  15   -150.03056
-  3  27  11   -150.03056
-  3  30  7   -150.03056
-  3  35  13   -150.03056
-END PERIOD
+BEGIN PERIOD  20
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_20.txt'
+END PERIOD  20
 
-BEGIN PERIOD 21
-  3  10  17   -150.12376
-  3  12  14   -150.12376
-  3  21  15   -150.12376
-  3  27  11   -150.12376
-  3  30  7   -150.12376
-  3  35  13   -150.12376
-END PERIOD
+BEGIN PERIOD  21
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_21.txt'
+END PERIOD  21
 
-BEGIN PERIOD 22
-  3  10  17   -150.07470
-  3  12  14   -150.07470
-  3  21  15   -150.07470
-  3  27  11   -150.07470
-  3  30  7   -150.07470
-  3  35  13   -150.07470
-END PERIOD
+BEGIN PERIOD  22
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_22.txt'
+END PERIOD  22
 
-BEGIN PERIOD 23
-  3  10  17   -150.10570
-  3  12  14   -150.10570
-  3  21  15   -150.10570
-  3  27  11   -150.10570
-  3  30  7   -150.10570
-  3  35  13   -150.10570
-END PERIOD
+BEGIN PERIOD  23
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_23.txt'
+END PERIOD  23
 
-BEGIN PERIOD 24
-  3  10  17   -150.03722
-  3  12  14   -150.03722
-  3  21  15   -150.03722
-  3  27  11   -150.03722
-  3  30  7   -150.03722
-  3  35  13   -150.03722
-END PERIOD
+BEGIN PERIOD  24
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_24.txt'
+END PERIOD  24
 
-BEGIN PERIOD 25
-  3  10  17   -150.08626
-  3  12  14   -150.08626
-  3  21  15   -150.08626
-  3  27  11   -150.08626
-  3  30  7   -150.08626
-  3  35  13   -150.08626
-END PERIOD
+BEGIN PERIOD  25
+    OPEN/CLOSE  'freyberg6.wel_stress_period_data_25.txt'
+END PERIOD  25
+

@@ -1,13 +1,12 @@
-# OC6 input file, prepared by MF5to6 on 6/30/2020 at 16:37:44.
-
 BEGIN Options
-  BUDGET FILEOUT  freyberg6_freyberg.cbc
-  HEAD FILEOUT  freyberg6_freyberg.hds
-  HEAD PRINT_FORMAT  COLUMNS 10  WIDTH 11  DIGITS 4  GENERAL             
+  BUDGET  FILEOUT  freyberg6_freyberg.cbc
+  HEAD  FILEOUT  freyberg6_freyberg.hds
+  HEAD  PRINT_FORMAT  COLUMNS  10  WIDTH  11  DIGITS  4  general
 END Options
 
-BEGIN PERIOD 1
-  SAVE BUDGET ALL
-  PRINT BUDGET ALL
-  SAVE HEAD ALL
-END PERIOD
+BEGIN PERIOD  1
+  SAVE  budget  all
+  SAVE  head  all
+  PRINT  budget  all
+END PERIOD  1
+

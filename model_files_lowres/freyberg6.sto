@@ -1,27 +1,26 @@
-# STO6 input file, prepared by MF5to6 on 6/30/2020 at 16:37:44.
-
 BEGIN Options
 END Options
 
 BEGIN GRIDDATA
-  ICONVERT LAYERED
-    CONSTANT  1
-    CONSTANT  0
-    CONSTANT  0
-  SS LAYERED
-    CONSTANT   0.10000000E-05
-    CONSTANT   0.10000000E-05
-    CONSTANT   0.10000000E-05
-  SY LAYERED
-    CONSTANT   0.10000000E-01
-    CONSTANT    0.0000000    
-    CONSTANT    0.0000000    
+  iconvert  LAYERED
+    OPEN/CLOSE  'freyberg6.sto_iconvert_layer1.txt'  FACTOR  1
+    OPEN/CLOSE  'freyberg6.sto_iconvert_layer2.txt'  FACTOR  1
+    OPEN/CLOSE  'freyberg6.sto_iconvert_layer3.txt'  FACTOR  1
+  ss  LAYERED
+    OPEN/CLOSE  'freyberg6.sto_ss_layer1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.sto_ss_layer2.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.sto_ss_layer3.txt'  FACTOR  1.0
+  sy  LAYERED
+    OPEN/CLOSE  'freyberg6.sto_sy_layer1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.sto_sy_layer2.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.sto_sy_layer3.txt'  FACTOR  1.0
 END GRIDDATA
 
-BEGIN Period 1
-    STEADY-STATE
-END Period
+BEGIN Period  1
+  STEADY-STATE
+END Period  1
 
-BEGIN Period 2
-    TRANSIENT
-END Period
+BEGIN Period  2
+  TRANSIENT
+END Period  2
+

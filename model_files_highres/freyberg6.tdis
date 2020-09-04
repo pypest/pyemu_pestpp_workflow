@@ -1,743 +1,742 @@
-# TDIS6 input file, prepared by MF5to6 on 6/30/2020 at 17:28:57.
-
 BEGIN Options
-  TIME_UNITS DAYS
+  TIME_UNITS  days
 END Options
 
 BEGIN Dimensions
-  NPER 731
+  NPER  731
 END Dimensions
 
 BEGIN PERIODDATA
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
-    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
+       1.00000000  1       1.00000000  PERLEN NSTP TSMULT
 END PERIODDATA
+

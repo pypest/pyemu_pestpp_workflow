@@ -1,20 +1,19 @@
-# NPF6 input file, prepared by MF5to6 on 6/30/2020 at 17:28:57.
-
 BEGIN Options
-  SAVE_FLOWS  freyberg6_freyberg.cbc
+  SAVE_FLOWS
 END Options
 
 BEGIN GRIDDATA
-  Icelltype LAYERED
-    CONSTANT  1
-    CONSTANT  0
-    CONSTANT  0
-  K  LAYERED
-    CONSTANT    3.00000000    
-    CONSTANT   0.300000000    
-    CONSTANT    30.0000000    
-  K33  LAYERED
-    CONSTANT   0.300000000    
-    CONSTANT   0.300000000E-01
-    CONSTANT    3.00000000    
+  icelltype  LAYERED
+    OPEN/CLOSE  'freyberg6.npf_icelltype_layer1.txt'  FACTOR  1
+    OPEN/CLOSE  'freyberg6.npf_icelltype_layer2.txt'  FACTOR  1
+    OPEN/CLOSE  'freyberg6.npf_icelltype_layer3.txt'  FACTOR  1
+  k  LAYERED
+    OPEN/CLOSE  'freyberg6.npf_k_layer1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.npf_k_layer2.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.npf_k_layer3.txt'  FACTOR  1.0
+  k33  LAYERED
+    OPEN/CLOSE  'freyberg6.npf_k33_layer1.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.npf_k33_layer2.txt'  FACTOR  1.0
+    OPEN/CLOSE  'freyberg6.npf_k33_layer3.txt'  FACTOR  1.0
 END GRIDDATA
+
