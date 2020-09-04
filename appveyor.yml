@@ -1,0 +1,43 @@
+environment:
+  
+  matrix:
+    - PYTHON_VERSION: "3.6"
+      CONDA_INSTALL_LOCN: "C:\\Miniconda36-x64"
+
+
+platform:
+    - x64
+
+build: false
+
+cache:
+  - '%LOCALAPPDATA%\pip\Cache'
+  - '%USERPROFILE%\.cache\pyemu'
+
+init:
+  - echo %PYTHON_VERSION% %CONDA_INSTALL_LOCN%
+
+install:
+  - set PATH=%CONDA_INSTALL_LOCN%;%CONDA_INSTALL_LOCN%\scripts;%PATH%;
+  - set PYTHONUNBUFFERED=1
+  - conda config --set always_yes true
+  - conda update conda
+  - conda update --all
+  - conda config --set show_channel_urls yes
+  - conda config --prepend channels conda-forge
+  - conda info -a
+
+  - conda install --yes python=%PYTHON_VERSION% pip numpy scipy pandas nose matplotlib jupyter notebook nbconvert
+  - pip install coveralls
+  - pip install pyshp
+  - pip install nose-timer
+  - conda list
+
+test_script:
+  - python setup.py install
+  - nosetests -v --with-id --nocapture --with-timer autotest_notebooks.py
+
+after_test:
+ - echo "done"
+matrix:
+  fast_finish: true

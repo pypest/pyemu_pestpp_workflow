@@ -1,0 +1,36 @@
+--wisudo: false
+os: linux
+dist: trusty
+sudo: required
+compiler: gcc
+python:
+  - "3.7"
+
+env:
+  global:
+    - NO_NET=1
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - export PATH="$HOME/pestpp/bin/linux:$PATH"
+  - conda update --yes conda
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+install:
+  - conda install --yes python=$TRAVIS_PYTHON_VERSION pip numpy scipy pandas nose matplotlib jupyter notebook sphinx nbconvert
+  - pip install coveralls
+  - pip install pyshp
+  - pip install nose-timer
+  - pip install nbsphinx
+script:
+  - export PYTHONPATH=$PYTHONPATH:.
+  - nosetests -v --with-id --nocapture --with-timer --with-coverage autotest_notebooks.py
+
+after_success:
+  - cd docs
+  - make html
+  - cd ..
+  - coveralls
+
+
