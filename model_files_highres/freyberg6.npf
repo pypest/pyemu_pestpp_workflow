@@ -1,0 +1,20 @@
+# NPF6 input file, prepared by MF5to6 on 6/30/2020 at 17:28:57.
+
+BEGIN Options
+  SAVE_FLOWS  freyberg6_freyberg.cbc
+END Options
+
+BEGIN GRIDDATA
+  Icelltype LAYERED
+    CONSTANT  1
+    CONSTANT  0
+    CONSTANT  0
+  K  LAYERED
+    CONSTANT    3.00000000    
+    CONSTANT   0.300000000    
+    CONSTANT    30.0000000    
+  K33  LAYERED
+    CONSTANT   0.300000000    
+    CONSTANT   0.300000000E-01
+    CONSTANT    3.00000000    
+END GRIDDATA

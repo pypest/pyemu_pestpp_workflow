@@ -1,0 +1,17 @@
+BEGIN Options
+  LIST       freyberg6.lst
+  NEWTON
+END Options
+
+BEGIN Packages
+  DIS6       freyberg6.dis
+  IC6        freyberg6.ic
+  NPF6       freyberg6.npf
+  STO6       freyberg6.sto
+  OC6        freyberg6.oc
+  WEL6       freyberg6.wel
+  RCH6       freyberg6.rch
+  GHB6       freyberg6.ghb
+  SFR6       freyberg6.sfr  'SFR_1'           
+END Packages
+

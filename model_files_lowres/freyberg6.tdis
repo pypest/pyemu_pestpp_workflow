@@ -1,0 +1,37 @@
+# TDIS6 input file, prepared by MF5to6 on 6/30/2020 at 16:37:44.
+
+BEGIN Options
+  TIME_UNITS DAYS
+END Options
+
+BEGIN Dimensions
+  NPER 25
+END Dimensions
+
+BEGIN PERIODDATA
+    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    29.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    28.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    30.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+    31.000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+END PERIODDATA
