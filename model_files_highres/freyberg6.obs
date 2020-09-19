@@ -1,0 +1,34 @@
+BEGIN options
+  DIGITS  10
+  PRINT_INPUT
+END options
+
+BEGIN continuous  FILEOUT  heads.csv
+  trgw_2_8_47  HEAD  3 9 48
+  trgw_2_8_29  HEAD  3 9 30
+  trgw_2_11_26  HEAD  3 12 27
+  trgw_2_29_5  HEAD  3 30 6
+  trgw_2_41_32  HEAD  3 42 33
+  trgw_2_47_50  HEAD  3 48 51
+  trgw_2_65_32  HEAD  3 66 33
+  trgw_2_68_47  HEAD  3 69 48
+  trgw_2_74_14  HEAD  3 75 15
+  trgw_2_80_20  HEAD  3 81 21
+  trgw_2_89_47  HEAD  3 90 48
+  trgw_2_101_23  HEAD  3 102 24
+  trgw_2_104_32  HEAD  3 105 33
+  trgw_0_8_47  HEAD  1 9 48
+  trgw_0_8_29  HEAD  1 9 30
+  trgw_0_11_26  HEAD  1 12 27
+  trgw_0_29_5  HEAD  1 30 6
+  trgw_0_41_32  HEAD  1 42 33
+  trgw_0_47_50  HEAD  1 48 51
+  trgw_0_65_32  HEAD  1 66 33
+  trgw_0_68_47  HEAD  1 69 48
+  trgw_0_74_14  HEAD  1 75 15
+  trgw_0_80_20  HEAD  1 81 21
+  trgw_0_89_47  HEAD  1 90 48
+  trgw_0_101_23  HEAD  1 102 24
+  trgw_0_104_32  HEAD  1 105 33
+END continuous  FILEOUT  heads.csv
+
