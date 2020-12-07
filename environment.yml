@@ -1,0 +1,11 @@
+name: pyemu_pestpp
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pip: 
+    - https://github.com/modflowpy/flopy/zipball/develop
+    - https://github.com/pypest/pyemu/zipball/develop
