@@ -1,11 +1,12 @@
-name: pyemu_pestpp
+name: pstfromeg
 channels:
-  - defaults
+  - conda-forge
 dependencies:
+  - python>=3.9
   - numpy
   - pandas
   - matplotlib
   - pip
   - pip: 
-    - https://github.com/modflowpy/flopy/zipball/develop
-    - https://github.com/pypest/pyemu/zipball/develop
+    - flopy
+    - pyemu
